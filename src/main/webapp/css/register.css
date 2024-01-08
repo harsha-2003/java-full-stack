@@ -1,0 +1,126 @@
+/* Navbar styles (same as before) */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Styles for the left half of the page (photo) */
+.register {
+    display: flex;
+}
+
+.imgg {
+    width: 80%; /* Set the width to make the photo smaller */
+    display: flex;
+    justify-content: flex-end; /* Move the photo to the right */
+    align-items: center;
+    padding: 30x; /* Add some padding to separate it from the form */
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.imgg img {
+    max-width: 100%; /* Ensure the image does not exceed the container width */
+}
+
+/* Styles for the right half of the page (registration form) */
+.registerformandhero {
+    width: 60%; /* Set the width to take the other half of the page */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box {
+    width: 360px;
+    padding: 60px;
+    background: #191919;
+    text-align: center;
+    border-radius: 10%;
+    color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20%;
+    margin-left: -30%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.row input[type="text"],
+.row input[type="email"],
+.row input[type="password"],
+.row select {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #00BFFF;
+    border-radius: 24px;
+    outline: none;
+}
+
+.row select {
+    background-color: white;
+}
+
+.box h1 {
+    color: lightblue;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.box input[type="submit"] {
+    font-size: 1.2em;
+    border: none;
+    background-color: #00BFFF;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    padding: 14px 40px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: background-color 0.25s;
+}
+
+.box input[type="submit"]:hover {
+    background-color: #00FF7F;
+}
+
+
+
+
+body {
+
+    background: #dde1ee;
+    
+}
+
